@@ -31,7 +31,7 @@ document.getElementById('process-button').addEventListener('click', async () => 
 
     try {
         console.log('🚀 Sending request to backend...');
-        const response = await fetch('https://deploying-company-wise-report.onrender.com/process', {
+        const response = await fetch('https://sompo-company-image-insurance-report.onrender.com/process', {
             method: 'POST',
             body: formData
         });
